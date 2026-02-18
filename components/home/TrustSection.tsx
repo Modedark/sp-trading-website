@@ -2,8 +2,8 @@ import { ShieldCheck, Award, Leaf, Users } from 'lucide-react';
 
 export const TrustSection = () => {
     return (
-        <section className="py-20 bg-background border-t border-gray-200">
-            <div className="container mx-auto px-4">
+        <section className="py-20 md:py-28 bg-background border-t border-gray-200">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
                     <div className="flex flex-col items-center">
                         <ShieldCheck className="h-12 w-12 text-primary mb-4" />

@@ -3,8 +3,8 @@ import { ArrowRight, Factory, ChefHat } from 'lucide-react';
 
 export const Segmentation = () => {
     return (
-        <section className="py-20 bg-background" id="segmentation">
-            <div className="container mx-auto px-4">
+        <section className="py-20 md:py-28 bg-background" id="segmentation">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 <div className="grid gap-8 md:grid-cols-2">
                     {/* B2B Card */}
                     <div className="group relative overflow-hidden rounded-2xl bg-secondary p-8 md:p-12 transition-all hover:shadow-2xl">

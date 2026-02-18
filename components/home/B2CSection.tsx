@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const B2CSection = () => {
     return (
-        <section id="b2c" className="py-24 bg-[#F8F6F2]">
-            <div className="container mx-auto px-4 text-center mb-16">
+        <section id="b2c" className="py-20 md:py-28 bg-[#F8F6F2]">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12 text-center mb-16">
                 <span className="text-primary font-semibold tracking-wider uppercase text-sm mb-2 block">For Home</span>
                 <h2 className="text-4xl font-bold text-secondary mb-6">Pure & Gluten-Free Goodness</h2>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -14,7 +14,7 @@ export const B2CSection = () => {
             </div>
 
             {/* Carousel or Grid of uses - Simplified Grid for now */}
-            <div className="container mx-auto px-4">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {[1, 2, 3].map((item) => (
                         <div key={item} className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform hover:-translate-y-2">

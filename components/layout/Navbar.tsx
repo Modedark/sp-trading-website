@@ -30,10 +30,10 @@ export const Navbar = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-20 md:h-24 flex items-center ${isScrolled ? 'bg-black/95 backdrop-blur-md border-b border-white/10' : 'bg-gradient-to-b from-black/80 to-transparent border-b border-white/5'
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-20 flex items-center px-6 md:px-12 ${isScrolled ? 'bg-black/70 backdrop-blur-md border-b border-white/10' : 'bg-gradient-to-b from-black/80 to-transparent border-b border-white/5'
                 }`}
         >
-            <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
+            <div className="w-full max-w-7xl mx-auto flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3">
                     <div className="relative h-12 w-32 md:h-16 md:w-40">
                         <Logo className="h-full w-full" />

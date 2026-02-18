@@ -16,7 +16,7 @@ export const Hero = () => {
                 />
             </div>
 
-            <div className="relative z-20 flex h-full flex-col items-center justify-center px-4 text-center pt-24 md:pt-32">
+            <div className="relative z-20 flex h-full flex-col items-center justify-center px-4 text-center pt-32 md:pt-40">
                 <h1 className="mb-4 text-5xl font-bold tracking-tight md:text-7xl font-sans text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">
                     Premium Water Chestnut Flour
                 </h1>

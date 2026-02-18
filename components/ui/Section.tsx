@@ -26,9 +26,9 @@ export const Section: React.FC<SectionProps> = ({
     return (
         <section
             id={id}
-            className={`py-16 md:py-24 ${bgStyles[background]} ${className}`}
+            className={`py-20 md:py-28 ${bgStyles[background]} ${className}`}
         >
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 {children}
             </div>
         </section>

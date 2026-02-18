@@ -28,8 +28,8 @@ const steps = [
 
 export const FarmToFlour = () => {
     return (
-        <section className="py-24 bg-primary text-white overflow-hidden">
-            <div className="container mx-auto px-4">
+        <section className="py-20 md:py-28 bg-primary text-white overflow-hidden">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 <div className="mb-16 text-center">
                     <h2 className="mb-4 text-4xl font-bold md:text-5xl">Farm to Flour</h2>
                     <p className="text-xl text-gray-300 max-w-2xl mx-auto">

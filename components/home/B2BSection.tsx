@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const B2BSection = () => {
     return (
-        <section id="b2b" className="py-24 bg-white">
-            <div className="container mx-auto px-4">
+        <section id="b2b" className="py-20 md:py-28 bg-white">
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
                 <div className="flex flex-col md:flex-row items-center gap-16">
                     <div className="w-full md:w-1/2">
                         <div className="relative h-[500px] w-full overflow-hidden rounded-2xl shadow-2xl">
